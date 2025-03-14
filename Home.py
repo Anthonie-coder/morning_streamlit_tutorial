@@ -34,7 +34,7 @@ def main():
     st.divider()
     # st.write("------------------------------")
 
-    df = pd.read_csv("../../Desktop/New folder/data.csv")
+    df = pd.read_csv("data.csv")
     st.dataframe(df)
 
     st.table(df.head())
